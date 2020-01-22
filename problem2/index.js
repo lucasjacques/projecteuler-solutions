@@ -23,9 +23,9 @@ problem2SolverRobot.generateFibonacciSum = function (maxNumber, evenOnly=false) 
 problem2SolverRobot.generateFibonacciNextPair = function (currentPair, evenOnly=false) {
 	/* Below we basically jump three iterations forward in the Fibonacci formula
 	 * because mathematically speaking, you need two numbers of the same type
-	 * (odd or even) to the result of their sum to be an even number, since we
-	 * start with an odd and an even number (1,2) , we will always see another
-	 * even number after 3 iterations.
+	 * (odd or even) for the result of their sum to be an even number, since we
+	 * start with an odd and an even number (1, 2) , we will always and only see another
+	 * even number after 3 iterations parting from this pair of "odd and even".
 	 * - The first iteration would be: odd (1) + even (2) = odd (3);
 	 * - The second iteration would be: even(2) + odd (3) = odd (5);
 	 * - The third iteration would be: odd(3) + odd (5) = even (8);
