@@ -36,8 +36,8 @@ problem2SolverRobot.generateFibonacciNextPair = function (currentPair, evenOnly=
 	 * Well, because that's is what the fourth iteration looks like when you
 	 * see it from the first iteration perspective:
 	 * Let's say the first element (1) is x and the second(2) is y.
-	 * - The first iteration would be simple: x + y = xy
-	 * - The second iteration would be: y + xy = xyy (x + y * 2)
+	 * - The first iteration would be simple: x + y = xy;
+	 * - The second iteration would be: y + xy = xyy (x + y * 2);
 	 * - The third iteration would be: xy + xyy = xxyyy (x * 2 + y * 3) , which
 	 * results in the even number we wanted.
 	 */
