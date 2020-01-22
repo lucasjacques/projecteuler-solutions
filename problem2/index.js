@@ -32,7 +32,7 @@ problem2SolverRobot.generateFibonacciNextPair = function (currentPair, evenOnly=
 	 * After the third iteration we get back to the same odd + even stuff (this
 	 * case would be 5 + 8) and can repeat the same proccess over and over again.
 	 *
-	 * But why the jumped-four-iterations pair have "* 2" and "* 3", you ask?
+	 * But why the jumped-three-iterations pair have "* 2" and "* 3", you ask?
 	 * Well, because that's is what the fourth iteration looks like when you
 	 * see it from the first iteration perspective:
 	 * Let's say the first element (1) is x and the second(2) is y.
